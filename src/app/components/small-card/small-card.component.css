@@ -1,0 +1,36 @@
+.container__smal-card{
+    width: 700px;
+}
+
+.container__smal-card-content{
+    margin: 0px 0px 10px 15px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.small-card__picture>img{
+    width: 300px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+.small-card__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-card__title > h1 > a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.small-card__title> h1 > a:hover{
+    color:  rgba(139, 214, 214, 0.5);
+}
+
+.small-card__hr > hr{
+    margin: 10px;
+}

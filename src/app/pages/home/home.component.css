@@ -1,0 +1,6 @@
+.container__article{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: center;
+}

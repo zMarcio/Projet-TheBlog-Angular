@@ -1,0 +1,51 @@
+.container__content{
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 20px;
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__content > a{
+    margin: 10px;
+}
+
+.container__cover > img{
+    width: 850px;
+    min-width: 500px;
+    height: 550px;
+    min-height: 500px;
+    position: relative; /* Para permitir o posicionamento do pseudo-elemento */
+    border: none; /* Remove a borda padrão */
+    padding: 5px; /* Define um preenchimento para o elemento */
+    background: #0066B3; /* Define o gradiente como plano de fundo */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa o tamanho do elemento */
+}
+.container__cover > img::after{
+    content: ""; /* Cria um elemento vazio */
+    position: absolute; /* Posiciona o pseudo-elemento */
+    top: -5px; /* Ajusta a posição do topo para criar a borda */
+    left: -5px; /* Ajusta a posição da esquerda para criar a borda */
+    right: -5px; /* Ajusta a posição da direita para criar a borda */
+    bottom: -5px; /* Ajusta a posição do fundo para criar a borda */
+    background: linear-gradient(to top, #0066B3, #C0C0C0, #F0F0F0, #C0C0C0, #0066B3); /* Define o gradiente prata com mais detalhes como plano de fundo do pseudo-elemento */
+    z-index: -1; 
+}
+
+.container__description > p{
+    padding: 10px 400px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-top: 10.75px;
+    margin-bottom: 10.75px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+

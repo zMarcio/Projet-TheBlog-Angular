@@ -1,0 +1,35 @@
+.container__big-card{
+    border: solid rgba(54, 53, 53, 0.397) 1.5px;
+    width: 400px;
+    height: 500px;
+
+    margin: 0px 10px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.container__big-card>a{
+    text-decoration: none;
+}
+
+.big_card__picture > img{
+    width: 100%;
+    min-width: 400px;
+
+}
+
+.big_card__title>h1{
+    margin: 15px 0 15px;
+    font-size: 50px;
+}
+
+.big_card__title> h1 > a{
+    text-decoration: none;
+    color: white;
+}
+
+.big_card__title> h1 > a:hover{
+    color:  rgba(139, 214, 214, 0.5);
+}
